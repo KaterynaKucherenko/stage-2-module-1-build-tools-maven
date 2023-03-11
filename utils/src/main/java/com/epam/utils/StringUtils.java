@@ -6,6 +6,9 @@ public class StringUtils {
                 return false;}
             if(Float.parseFloat(str)<=0){
                 return false;}
+            if(str.startsWith("08")){
+                return false;
+            }
 
         }
        catch(Exception e){
